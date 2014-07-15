@@ -3,7 +3,6 @@ class ReviewsController < ApplicationController
   before_action :set_restaurant
   before_action :authenticate_user!
 
-
   # GET /reviews/new
   def new
     @review = Review.new
