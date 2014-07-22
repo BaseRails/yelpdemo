@@ -18,3 +18,4 @@ gem "fog", "~> 1.3.1"
 gem 'figaro'
 gem "mini_magick"
 gem 'devise'
+gem 'searchkick'
