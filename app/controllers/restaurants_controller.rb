@@ -1,7 +1,7 @@
 class RestaurantsController < ApplicationController
   before_action :set_restaurant, only: [:show, :edit, :update, :destroy]
   before_action :authenticate_user!, except: [:search, :index, :show]
-  before_action :check_user, except: [:search, :index, :show]
+  before_action :check_user, except: [:search,  :index, :show]
 
   def search
     if params[:search].present?
